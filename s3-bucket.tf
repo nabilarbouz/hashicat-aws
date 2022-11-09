@@ -3,7 +3,6 @@ module "s3_bucket" {
   version = "2.8.0"
 
   bucket_prefix = "nabil-arbouz"
-  bucket = "my-s3-bucket"
   acl    = "private"
 
   versioning = {
